@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(248, 225, 225);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.bungkus {
+    text-align: center;
+    position: relative;
+}
+
+.gif {
+    height: 80%;
+    width: 90%;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #FF8970;
+    margin: 15px 0;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.yesDeh {
+    position: absolute;
+    left: 190px;
+    top: 108%;
+    transform: translateY(-50%); 
+    background-color: #e94d58;
+    border: none;
+    color: whitesmoke;
+    border: #e94d58;
+    width: 150px; 
+    height: 50px;
+    box-shadow: 0 2px 4px rgb(80, 79, 79);
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    font-size: 1.2em
+}
